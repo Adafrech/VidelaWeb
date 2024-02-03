@@ -12,6 +12,7 @@ namespace CapaPresentacionAdmin
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new Bundle("~/bundles/complement").Include(
+                    "~/Scripts/fontawesome/all.min.js",
                     "~/Scripts/scripts.js"));
             /*
                         bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
